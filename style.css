@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 0 100px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+nav a:nth-child(2) {
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  background-color: #1F2937;
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+footer {
+  background-color: #1F2937;
+  padding: 10px;
+  color: hsla(0, 0%, 100%, 0.7);
+}
