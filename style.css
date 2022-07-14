@@ -1,12 +1,21 @@
 body {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
-  padding: 0 100px;
+  padding: 10px 100px;
+  gap: 30px;
+}
+
+nav a:first-child {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 h1 {
@@ -19,6 +28,28 @@ nav a:nth-child(2) {
   margin-left: auto;
 }
 
+.hero2 {
+  padding: 30px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.hero2 div {
+  text-align: start;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 25px;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -29,16 +60,41 @@ a {
   color: white;
 }
 
-.white-bg {
-  background-color: white;
+.random-information {
+  margin: auto;
+}
+
+.call-to-action {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  color: #F9FAF8;
+  border-radius: 10px;
+  margin: 0 250px;
+  padding: 10px 100px;
+  text-align: start;
+  line-height: 1px;
+}
+
+.call-to-action button {
+  border: 2px solid #F9FAF8;
+}
+
+.call-to-action p {
+  font-size: 14px;
+  color: #E5E7EB;
 }
 
 .quote {
   background-color: #E5E7EB;
+  margin: auto;
 }
 
 footer {
   background-color: #1F2937;
   padding: 10px;
   color: hsla(0, 0%, 100%, 0.7);
+  margin-top: auto;
 }
