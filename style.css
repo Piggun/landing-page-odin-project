@@ -61,8 +61,27 @@ a {
 }
 
 .random-information {
-  margin: auto;
+  margin: 50px 800px 100px;
 }
+
+.random-information h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.sub-group {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-group img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  border: 2px solid #3882f6;
+}
+
 
 .call-to-action {
   margin-top: auto;
@@ -89,7 +108,8 @@ a {
 
 .quote {
   background-color: #E5E7EB;
-  margin: auto;
+  margin-bottom: 60px;
+  padding: 20px;
 }
 
 footer {
